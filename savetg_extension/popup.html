@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Set Chat ID</title>
+    <style>
+        body {
+            width: 300px;
+            padding: 10px;
+        }
+        #botList {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="chat_id">Chat ID:</label>
+        <input type="text" id="chat_id">
+        <br>
+        <label for="chat_name">Chat Name:</label>
+        <input type="text" id="chat_name">
+        <button id="save">Save</button>
+        <div id="status">
+            <button id="turnOn">Turn On</button>
+            <button id="turnOff">Turn Off</button>
+        </div>
+    </div>
+    <div>
+        <label for="dictInput">Dict Input:</label>
+        <textarea id="dictInput" rows="4" cols="30"></textarea>
+        <button id="addDict">Add Dict</button>
+    </div>
+    <div id="botList">
+        <!-- List of bots will be populated here -->
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

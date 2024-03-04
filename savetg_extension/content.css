@@ -1,0 +1,45 @@
+/* Trigger Button Style */
+.trigger-button {
+    background-color: #FF5733; /* Vibrant Orange for high visibility */
+    color: #FFFFFF; /* White text for contrast */
+    border: none; /* Keep no border for a clean look */
+    padding: 5px 10px; /* Reduced padding for a smaller button */
+    border-radius: 5px; /* Slightly rounded corners for a modern look */
+    font-weight: bold; /* Bold text for better visibility */
+    font-size: 14px; /* Smaller font size for a smaller button */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for a 3D effect */
+    position: absolute;
+    z-index: 9999;
+    display: none; /* Initially hidden */
+}
+
+/* Popup Menu Style */
+.bot-dict-menu {
+    position: absolute;
+    z-index: 10000;
+    background-color: #FFF; /* White background for clarity and contrast */
+    border: 1px solid #CCC; /* Light gray border for subtle definition */
+    border-radius: 5px; /* Slightly rounded corners for a modern look */
+    padding: 10px; /* Increased padding for better spacing */
+    box-shadow: 0 4px 8px rgba(0,0,0,.2); /* Consistent shadow with the button for depth */
+    font-size: 16px; /* Font size for readability */
+    color: #333; /* Dark text for contrast against the white background */
+}
+
+/* Buttons inside the Popup Menu */
+.bot-dict-menu-button {
+    display: block; /* Make each button a block-level element */
+    width: 100%; /* Ensure it takes the full width of its container */
+    margin-bottom: 2px; /* Reduce space between buttons for a more compact look */
+    background-color: #FF5733; /* Vibrant Orange for high visibility */
+    color: #FFFFFF; /* White text for contrast */
+    border: 1px solid #FFFFFF; /* White border for visibility and consistency */
+    padding: 5px 0; /* Reduce vertical padding for a more compact button */
+    border-radius: 5px; /* Slightly rounded corners for a modern look */
+    font-weight: bold; /* Bold text for better visibility */
+    font-size: 14px; /* Smaller font size for a more compact look */
+    text-align: left; /* Align text to the left */
+    padding-left: 10px; /* Keep left padding to ensure text is not flush with the button's edge */
+    cursor: pointer; /* Change cursor to pointer on hover for better user experience */
+    box-shadow: 0 2px 5px rgba(0,0,0,.2); /* Slight shadow for depth */
+}
